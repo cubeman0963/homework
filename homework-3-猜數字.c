@@ -2,7 +2,7 @@
 int main(int argc, char const *argv[])
 {
     int guess,answer;
-    answer = 67;
+    answer = 67;/*可任意修改數字*/
     printf("猜一個數字: ");
     while(guess!=answer){
         scanf("%d", &guess);
